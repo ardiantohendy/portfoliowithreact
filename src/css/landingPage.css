@@ -7,18 +7,29 @@
 }
 
 .child-desc h2 {
-  font-size: 8rem;
+  font-size: 9rem;
   margin: 0em;
+  font-family: monospace;
+  color: rgb(34, 34, 34);
+}
+
+.child-desc h2.shadow {
+  font-family: monospace;
+  position: absolute;
+  bottom: 56.3%;
+  right: 29.5%;
+  color: whitesmoke;
 }
 
 .child-desc p {
-  margin: 0em 0em 2em;
+  font-family: monospace;
+  margin: 0.2em 0;
+  font-size: 0.8rem;
   font-style: italic;
 }
 
 .child-desc a {
   text-decoration: none;
-  color: rgb(34, 34, 34);
   font-size: 1.3rem;
   font-weight: 400;
   background: whitesmoke;
