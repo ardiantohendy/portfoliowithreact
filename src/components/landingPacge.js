@@ -1,3 +1,5 @@
+import "../css/landingPage.css";
+
 function LandingPage(params) {
   return (
     <div className="main-parent">
