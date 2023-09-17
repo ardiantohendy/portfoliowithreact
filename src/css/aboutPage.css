@@ -33,6 +33,86 @@ body {
 .for-desc p {
   line-height: 2rem;
   text-align: start;
+  margin: 1em 0 1em 0;
+}
+
+.for-desc .skills-bar {
+  list-style: none;
+  width: 80%;
+  margin: 0;
+}
+
+.for-desc .skills-bar li {
+  margin-bottom: 0.3em;
+}
+
+.for-desc .skills-bar h4 {
+  margin-bottom: 0.5em;
+  margin-top: 0;
+  font-weight: 400;
+}
+
+.for-desc .skills-bar p {
+  margin: 0;
+}
+
+.for-desc .skills-bar .bar {
+  background: rgba(245, 245, 245, 0.453);
+  display: block;
+  height: 0.3em;
+  border-radius: 1em;
+  overflow: hidden;
+  transition: all 0.3s cubic-bezier(0.25, 0.8, 0.25, 0.1);
+}
+
+.for-desc .skills-bar .bar span {
+  height: 0.3em;
+  float: left;
+  background: whitesmoke;
+}
+
+.for-desc .skills-bar .bar .Dart {
+  width: 65%;
+  animation: Dart 2s;
+}
+
+.for-desc .skills-bar .bar .Javascript {
+  width: 85%;
+  /* background: #f7df1e; */
+  animation: Javascript 2s;
+}
+
+.for-desc .skills-bar .bar .Java {
+  width: 55%;
+  /* background: #f96900; */
+  animation: Java 2s;
+}
+
+@keyframes Dart {
+  0% {
+    width: 0%;
+  }
+  100% {
+    width: 65%;
+  }
+}
+
+@keyframes Javascript {
+  0% {
+    width: 0%;
+  }
+  100% {
+    width: 85%;
+  }
+}
+
+@keyframes Java {
+  0% {
+    width: 0%;
+  }
+  100% {
+    width: 55%;
+  }
 }
 
 .for-image {

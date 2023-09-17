@@ -4,19 +4,20 @@
   align-items: center;
   justify-content: center;
   flex-direction: column;
+  padding-top: 2em;
 }
 
 .child-desc h2 {
   font-size: 9rem;
   margin: 0em;
   font-family: monospace;
-  color: rgb(34, 34, 34);
+  color: #282c34;
 }
 
 .child-desc h2.shadow {
   font-family: monospace;
   position: absolute;
-  bottom: 56.3%;
+  bottom: 53%;
   right: 29.5%;
   color: whitesmoke;
 }
